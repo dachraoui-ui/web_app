@@ -37,8 +37,8 @@ public class RunRepository {
     }
     @PostConstruct
     public void init() {
-        runs.add(new Run(1, "Morning Run", LocalDateTime.now(), null, 5, Location.OUTDOOR));
-        runs.add(new Run(2, "Evening Run", null, LocalDateTime.now().plusHours(1), 10,Location.INDOOR));
+        runs.add(new Run(1, "Morning Run", LocalDateTime.now(), LocalDateTime.now().plusHours(1), 5, Location.OUTDOOR));
+        runs.add(new Run(2, "Evening Run", LocalDateTime.now(), LocalDateTime.now().plusHours(1), 10,Location.INDOOR));
         runs.add(new Run(3, "Afternoon Run", LocalDateTime.now(), LocalDateTime.now().plusHours(2), 15, Location.OUTDOOR));
     }
 }
