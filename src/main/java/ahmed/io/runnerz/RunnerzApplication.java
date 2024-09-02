@@ -2,6 +2,7 @@ package ahmed.io.runnerz;
 
 import ahmed.io.runnerz.run.Location;
 import ahmed.io.runnerz.run.Run;
+import ahmed.io.runnerz.run.RunRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
@@ -23,10 +24,10 @@ public class RunnerzApplication {
     }
 
     @Bean
-    CommandLineRunner runner(){
+    CommandLineRunner runner(RunRepository runRepository){
         return args -> {
             Run run = new Run(1, "Morning Run", LocalDateTime.now(), LocalDateTime.now().plusHours(1), 5, Location.OUTDOOR);
-            log.info(run.toString());
+            runRepository.create(run);
         };
     }
 

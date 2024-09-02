@@ -45,10 +45,22 @@ public class RunRepository {
                 .update();
         Assert.state(updated == 1, "Failed to create run " + run.title());
     }
+//    public void update(Run run , Integer id) {
+//        var updated = jdbcClient.sql("update Run set title = ? , started_on = ?,completed_on = ? ,miles =?,location = ? where id = ?")
+//                .param("title", run.title())
+//                .param("started_on", run.startedOn())
+//                .param("completed_on", run.completedOn())
+//                .param("miles", run.miles())
+//                .param("location", run.location().toString())
+//                .param(run.id())
+//                .update();
+//        Assert.state(updated == 1, "Failed to create run " + run.title());
+//    }
     public void delete(Integer id){
         jdbcClient.sql("delete from Run where id = :id")
                 .param("id" , id)
                 .update();
     }
+
 
 }
