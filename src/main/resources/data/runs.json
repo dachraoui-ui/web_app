@@ -1,0 +1,74 @@
+{
+  "runs": [
+    {
+      "id": 1,
+      "name": "Run 1",
+      "distance": 10.0,
+      "time": 60.0,
+      "date": "2018-01-01"
+    },
+    {
+      "id": 2,
+      "name": "Run 2",
+      "distance": 15.0,
+      "time": 90.0,
+      "date": "2018-01-02"
+    },
+    {
+      "id": 3,
+      "name": "Run 3",
+      "distance": 20.0,
+      "time": 120.0,
+      "date": "2018-01-03"
+    },
+    {
+      "id": 4,
+      "name": "Run 4",
+      "distance": 25.0,
+      "time": 150.0,
+      "date": "2018-01-04"
+    },
+    {
+      "id": 5,
+      "name": "Run 5",
+      "distance": 30.0,
+      "time": 180.0,
+      "date": "2018-01-05"
+    },
+    {
+      "id": 6,
+      "name": "Run 6",
+      "distance": 35.0,
+      "time": 210.0,
+      "date": "2018-01-06"
+    },
+    {
+      "id": 7,
+      "name": "Run 7",
+      "distance": 40.0,
+      "time": 240.0,
+      "date": "2018-01-07"
+    },
+    {
+      "id": 8,
+      "name": "Run 8",
+      "distance": 45.0,
+      "time": 270.0,
+      "date": "2018-01-08"
+    },
+    {
+      "id": 9,
+      "name": "Run 9",
+      "distance": 50.0,
+      "time": 300.0,
+      "date": "2018-01-09"
+    },
+    {
+      "id": 10,
+      "name": "Run 10",
+      "distance": 55.0,
+      "time": 330.0,
+      "date": "2018-01-10"
+    }
+  ]
+}
