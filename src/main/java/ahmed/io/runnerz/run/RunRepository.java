@@ -61,6 +61,12 @@ public class RunRepository {
                 .param("id" , id)
                 .update();
     }
-
+    public int count (){
+        return jdbcClient.sql("select count(*) from Run")
+                .query().listOfRows().size();
+    }
+    public void saveAll(List<Run> runs){
+        runs.stream().forEach(this::create);
+    }
 
 }
