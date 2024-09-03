@@ -2,73 +2,83 @@
   "runs": [
     {
       "id": 1,
-      "name": "Run 1",
-      "distance": 10.0,
-      "time": 60.0,
-      "date": "2018-01-01"
+      "title": "Run 1",
+      "startedOn": "2018-01-01T06:00:00.000000",
+      "completedOn": "2018-01-01T07:00:00.000000",
+      "miles": 5,
+      "location": "INDOOR"
     },
     {
       "id": 2,
-      "name": "Run 2",
-      "distance": 15.0,
-      "time": 90.0,
-      "date": "2018-01-02"
+      "title": "Run 2",
+      "startedOn": "2019-01-01T06:00:00.000000",
+      "completedOn": "2019-01-01T07:00:00.000000",
+      "miles": 2,
+      "location": "INDOOR"
     },
     {
       "id": 3,
-      "name": "Run 3",
-      "distance": 20.0,
-      "time": 120.0,
-      "date": "2018-01-03"
+      "title": "Run 3",
+      "startedOn": "2020-01-01T06:00:00.000000",
+      "completedOn": "2020-01-01T07:00:00.000000",
+      "miles": 3,
+      "location": "INDOOR"
     },
     {
       "id": 4,
-      "name": "Run 4",
-      "distance": 25.0,
-      "time": 150.0,
-      "date": "2018-01-04"
+      "title": "Run 4",
+      "startedOn": "2021-01-01T06:00:00.000000",
+      "completedOn": "2021-01-01T07:00:00.000000",
+      "miles": 4,
+      "location": "INDOOR"
     },
     {
       "id": 5,
-      "name": "Run 5",
-      "distance": 30.0,
-      "time": 180.0,
-      "date": "2018-01-05"
+      "title": "Run 5",
+      "startedOn": "2022-01-01T06:00:00.000000",
+      "completedOn": "2022-01-01T07:00:00.000000",
+      "miles": 5,
+      "location": "INDOOR"
     },
     {
       "id": 6,
-      "name": "Run 6",
-      "distance": 35.0,
-      "time": 210.0,
-      "date": "2018-01-06"
+      "title": "Run 6",
+      "startedOn": "2023-01-01T06:00:00.000000",
+      "completedOn": "2023-01-01T07:00:00.000000",
+      "miles": 6,
+      "location": "INDOOR"
     },
     {
       "id": 7,
-      "name": "Run 7",
-      "distance": 40.0,
-      "time": 240.0,
-      "date": "2018-01-07"
+      "title": "Run 7",
+      "startedOn": "2024-01-01T06:00:00.000000",
+      "completedOn": "2024-01-01T07:00:00.000000",
+      "miles": 7,
+      "location": "OUTDOOR"
     },
     {
       "id": 8,
-      "name": "Run 8",
-      "distance": 45.0,
-      "time": 270.0,
-      "date": "2018-01-08"
+      "title": "Run 8",
+      "startedOn": "2025-01-01T06:00:00.000000",
+      "completedOn": "2025-01-01T07:00:00.000000",
+      "miles": 8,
+      "location": "OUTDOOR"
     },
     {
       "id": 9,
-      "name": "Run 9",
-      "distance": 50.0,
-      "time": 300.0,
-      "date": "2018-01-09"
+      "title": "Run 9",
+      "startedOn": "2026-01-01T06:00:00.000000",
+      "completedOn": "2026-01-01T07:00:00.000000",
+      "miles": 9,
+      "location": "INDOOR"
     },
     {
       "id": 10,
-      "name": "Run 10",
-      "distance": 55.0,
-      "time": 330.0,
-      "date": "2018-01-10"
+      "title": "Run 10",
+      "startedOn": "2027-01-01T06:00:00.000000",
+      "completedOn": "2027-01-01T07:00:00.000000",
+      "miles": 10,
+      "location": "INDOOR"
     }
   ]
 }
