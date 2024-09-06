@@ -34,7 +34,6 @@ public class RunJsonDataLoader implements CommandLineRunner
                 catch (IOException e){
                     throw new RuntimeException("Failed to read JSON data",e);
                 }
-
             }
             else{
                 log.info("Runs already loaded");

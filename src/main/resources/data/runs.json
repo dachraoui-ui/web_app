@@ -3,80 +3,80 @@
     {
       "id": 1,
       "title": "Run 1",
-      "startedOn": "2018-01-01T06:00:00.000000",
-      "completedOn": "2018-01-01T07:00:00.000000",
+      "started_on": "2018-01-01T06:00:00.000000",
+      "completed_on": "2018-01-01T07:00:00.000000",
       "miles": 5,
       "location": "INDOOR"
     },
     {
       "id": 2,
       "title": "Run 2",
-      "startedOn": "2019-01-01T06:00:00.000000",
-      "completedOn": "2019-01-01T07:00:00.000000",
+      "started_on": "2019-01-01T06:00:00.000000",
+      "completed_on": "2019-01-01T07:00:00.000000",
       "miles": 2,
       "location": "INDOOR"
     },
     {
       "id": 3,
       "title": "Run 3",
-      "startedOn": "2020-01-01T06:00:00.000000",
-      "completedOn": "2020-01-01T07:00:00.000000",
+      "started_on": "2020-01-01T06:00:00.000000",
+      "completed_on": "2020-01-01T07:00:00.000000",
       "miles": 3,
       "location": "INDOOR"
     },
     {
       "id": 4,
       "title": "Run 4",
-      "startedOn": "2021-01-01T06:00:00.000000",
-      "completedOn": "2021-01-01T07:00:00.000000",
+      "started_on": "2021-01-01T06:00:00.000000",
+      "completed_on": "2021-01-01T07:00:00.000000",
       "miles": 4,
       "location": "INDOOR"
     },
     {
       "id": 5,
       "title": "Run 5",
-      "startedOn": "2022-01-01T06:00:00.000000",
-      "completedOn": "2022-01-01T07:00:00.000000",
+      "started_on": "2022-01-01T06:00:00.000000",
+      "completed_on": "2022-01-01T07:00:00.000000",
       "miles": 5,
       "location": "INDOOR"
     },
     {
       "id": 6,
       "title": "Run 6",
-      "startedOn": "2023-01-01T06:00:00.000000",
-      "completedOn": "2023-01-01T07:00:00.000000",
+      "started_on": "2023-01-01T06:00:00.000000",
+      "completed_on": "2023-01-01T07:00:00.000000",
       "miles": 6,
       "location": "INDOOR"
     },
     {
       "id": 7,
       "title": "Run 7",
-      "startedOn": "2024-01-01T06:00:00.000000",
-      "completedOn": "2024-01-01T07:00:00.000000",
+      "started_on": "2024-01-01T06:00:00.000000",
+      "completed_on": "2024-01-01T07:00:00.000000",
       "miles": 7,
       "location": "OUTDOOR"
     },
     {
       "id": 8,
       "title": "Run 8",
-      "startedOn": "2025-01-01T06:00:00.000000",
-      "completedOn": "2025-01-01T07:00:00.000000",
+      "started_on": "2025-01-01T06:00:00.000000",
+      "completed_on": "2025-01-01T07:00:00.000000",
       "miles": 8,
       "location": "OUTDOOR"
     },
     {
       "id": 9,
       "title": "Run 9",
-      "startedOn": "2026-01-01T06:00:00.000000",
-      "completedOn": "2026-01-01T07:00:00.000000",
+      "started_on": "2026-01-01T06:00:00.000000",
+      "completed_on": "2026-01-01T07:00:00.000000",
       "miles": 9,
       "location": "INDOOR"
     },
     {
       "id": 10,
       "title": "Run 10",
-      "startedOn": "2027-01-01T06:00:00.000000",
-      "completedOn": "2027-01-01T07:00:00.000000",
+      "started_on": "2027-01-01T06:00:00.000000",
+      "completed_on": "2027-01-01T07:00:00.000000",
       "miles": 10,
       "location": "INDOOR"
     }
