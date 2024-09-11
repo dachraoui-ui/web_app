@@ -31,6 +31,7 @@ public class RunJsonDataLoader implements CommandLineRunner
                     log.info("Reading {} runs from json data and saving to in-memory collection",allRuns.runs().size());
                     runRepository.saveAll(allRuns.runs());
                 }
+
                 catch (IOException e){
                     throw new RuntimeException("Failed to read JSON data",e);
                 }
