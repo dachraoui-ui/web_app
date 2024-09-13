@@ -68,5 +68,9 @@ public class RunRepository {
     public void saveAll(List<Run> runs){
         runs.forEach(this::create);
     }
+    public void deleteAll(){
+        jdbcClient.sql("delete from Run")
+                .update();
+    }
 
 }
