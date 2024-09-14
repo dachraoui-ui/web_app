@@ -72,5 +72,6 @@ public class RunRepository {
         jdbcClient.sql("delete from Run")
                 .update();
     }
+    //delete all
 
 }
