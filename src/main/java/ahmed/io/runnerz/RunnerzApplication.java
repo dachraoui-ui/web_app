@@ -1,11 +1,7 @@
 package ahmed.io.runnerz;
 
-import ahmed.io.runnerz.run.Location;
-import ahmed.io.runnerz.run.Run;
-import ahmed.io.runnerz.run.RunRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

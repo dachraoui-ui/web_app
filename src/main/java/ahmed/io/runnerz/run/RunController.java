@@ -1,10 +1,8 @@
 package ahmed.io.runnerz.run;
 
 import jakarta.validation.Valid;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 import java.util.Optional;
@@ -14,9 +12,9 @@ import java.util.Optional;
 @RequestMapping("/api/runs")
 public class RunController {
 
-    private final RunRepository runRepository;
+    private final JdbcClientRunRepository runRepository;
 
-    public RunController(RunRepository runRepository) {
+    public RunController(JdbcClientRunRepository runRepository) {
         this.runRepository = runRepository;
     }
     @GetMapping("")
