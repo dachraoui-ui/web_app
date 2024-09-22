@@ -2,7 +2,9 @@ package ahmed.io.runnerz.run;
 
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Positive;
+import org.springframework.data.annotation.Version;
 
+import java.net.http.HttpClient;
 import java.time.LocalDateTime;
 
 public record Run(
@@ -13,7 +15,9 @@ public record Run(
         LocalDateTime completedOn,
         @Positive(message = "Miles must be greater than 0")
         Integer miles,
-        Location location
+        Location location,
+        @Version
+        Integer version
 ) {
     public Run {
         if(!completedOn.isAfter(startedOn)){

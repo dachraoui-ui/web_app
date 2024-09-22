@@ -1,4 +1,6 @@
 package ahmed.io.runnerz.run;
 
-public interface RunRepository {
+import org.springframework.data.repository.ListCrudRepository;
+
+public interface RunRepository extends ListCrudRepository <Run,Integer> {
 }
