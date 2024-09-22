@@ -12,9 +12,9 @@ import java.util.Optional;
 @RequestMapping("/api/runs")
 public class RunController {
 
-    private final JdbcClientRunRepository runRepository;
+    private final RunRepository runRepository;
 
-    public RunController(JdbcClientRunRepository runRepository) {
+    public RunController(RunRepository runRepository) {
         this.runRepository = runRepository;
     }
     @GetMapping("")
@@ -33,19 +33,25 @@ public class RunController {
     @ResponseStatus(HttpStatus.CREATED)
     @PostMapping("/add")
     void create(@Valid @RequestBody Run run){
-        runRepository.create(run);
+        runRepository.save(run);
     }
 
-  //Put
-//    @ResponseStatus(HttpStatus.NO_CONTENT)
-//    @PutMapping("/update/{id}")
-//    void update(@Valid @RequestBody Run run, @PathVariable Integer id){
-//        runRepository.update(run, id);
-//    }
+
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    @PutMapping("/update/{id}")
+    void update(@Valid @RequestBody Run run, @PathVariable Integer id){
+        runRepository.save(run);
+    }
     //Delete
     @ResponseStatus(HttpStatus.NO_CONTENT)
     @DeleteMapping("/delete/{id}")
     void delete(@PathVariable Integer id){
-        runRepository.delete(id);
+        runRepository.delete(runRepository.findById(id).get());
+    }
+
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    @GetMapping("/{location}")
+    List<Run> findByLocation(@PathVariable Location location){
+        return runRepository.findRunByLocation(location);
     }
 }
