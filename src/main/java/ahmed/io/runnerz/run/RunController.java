@@ -50,7 +50,7 @@ public class RunController {
     }
 
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    @GetMapping("/{location}")
+    @GetMapping("/location/{location}")
     List<Run> findByLocation(@PathVariable Location location){
         return runRepository.findRunByLocation(location);
     }
