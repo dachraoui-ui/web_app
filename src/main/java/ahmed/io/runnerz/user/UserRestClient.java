@@ -27,4 +27,5 @@ public class UserRestClient {
                 .retrieve()
                 .body(new ParameterizedTypeReference<List<User>>() {});
     }
+    // find by id function here
 }
