@@ -21,11 +21,11 @@ public class UserRestClient {
                 .retrieve()
                 .body(new ParameterizedTypeReference<List<User>>() {});
     }
-    public List<User> findById(int id){
+    public User findById(int id){
         return this.restClient.get()
                 .uri("/users/{id}", id)
                 .retrieve()
-                .body(new ParameterizedTypeReference<List<User>>() {});
+                .body(User.class);
     }
-    // find by id function here
+
 }
