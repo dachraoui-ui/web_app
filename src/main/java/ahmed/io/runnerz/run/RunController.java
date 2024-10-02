@@ -54,4 +54,5 @@ public class RunController {
     List<Run> findByLocation(@PathVariable Location location){
         return runRepository.findRunByLocation(location);
     }
+    // add find by location
 }
