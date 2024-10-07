@@ -27,5 +27,5 @@ public class UserRestClient {
                 .retrieve()
                 .body(User.class);
     }
-
+    // Rest client
 }
